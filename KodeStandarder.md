@@ -3,24 +3,30 @@ Denne kodestandard skal fungere som et grundlag og kan tilpasses efter behov.
 Det er vigtigt at opretholde konsistens på tværs af projekter og samarbejde for at sikre en klar og læsbar kode.
 
 
+
 ## Formatering af Kode
 Brug 4 mellemrum for indrykning.
 Hold en linje mellem forskellige logiske blokke af kode for bedre læsbarhed.
 
 `
+
 function Get-Something {
     # Code here
 }
+
 `
+
 
 ## Variable Navngivning
 Brug meningsfulde og beskrivende navne til variabler.
 Brug camelCase til variabelnavne.
 
 `
+
 $computerList
 $oldIPAddresses
 $userProfileImportPath
+
 `
 
 ## Funktioner
@@ -29,12 +35,15 @@ Nedenstående er et eksempel på en simpel og en advanceret funktion.
 Hvis det er en simple funktion, så behøves der ikke alle blokke, "CmdletBinding" eller parametre.
 
 `
+
 function Get-Something {
     # Code here
 }
+
 `
 
 `
+
 Function Invoke-SqlStoredProcedure {
     <#
     .SYNOPSIS
@@ -85,10 +94,12 @@ Brug verb-noun mønsteret til funktion, såfremt det ikke forværrer forståelse
 Navngiv funktioner og parametre med PascalCase.
 
 `
+
 Get-Process -Name "svchost" -ComputerName "PC0001"
 Test-ConnectionMultiThread -Target $addressList
 Select-Servers -ComputerName $myServers
 Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
+
 `
 
 Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til at hjælpe.
@@ -104,9 +115,12 @@ Overvej brugen af "Comment_Based_Help" som vist i tidligere, herved kan "Get-Hel
 ## Quoting
 Brug enkelt anførselstegn for enkle strengværdier, og dobbelt anførselstegn for strengværdier, der kan indeholde variabler.
 powershell
+
 `
+
 $name = 'John'
 $message = "Hello, $name!"
+
 `
 
 
