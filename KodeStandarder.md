@@ -44,7 +44,7 @@ function Get-Something {
 
 ```PowerShell
 
-Function Invoke-SqlStoredProcedure {
+function Invoke-SqlStoredProcedure {
     <#
     .SYNOPSIS
         A brief description of the function or script.
