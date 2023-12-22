@@ -8,41 +8,41 @@ Det er vigtigt at opretholde konsistens på tværs af projekter og samarbejde fo
 Brug 4 mellemrum for indrykning.
 Hold en linje mellem forskellige logiske blokke af kode for bedre læsbarhed.
 
-`
+```PowerShell
 
 function Get-Something {
     # Code here
 }
 
-`
+```
 
 
 ## Variable Navngivning
 Brug meningsfulde og beskrivende navne til variabler.
 Brug camelCase til variabelnavne.
 
-`
+```PowerShell
 
 $computerList
 $oldIPAddresses
 $userProfileImportPath
 
-`
+```
 
 ## Funktioner
 Opdel komplekse opgaver i funktioner for at forbedre genbrugelighed og vedligeholdelse.
 Nedenstående er et eksempel på en simpel og en advanceret funktion.
 Hvis det er en simple funktion, så behøves der ikke alle blokke, "CmdletBinding" eller parametre.
 
-`
+```PowerShell
 
 function Get-Something {
     # Code here
 }
 
-`
+```
 
-`
+```PowerShell
 
 Function Invoke-SqlStoredProcedure {
     <#
@@ -83,7 +83,8 @@ Function Invoke-SqlStoredProcedure {
     }
 }
 
-`
+```
+
 Se eventuelt nedenstående eller microsofts vejledninger til advancerede funktioner:
 https://github.com/PoshCode/PowerShellPracticeAndStyle/blob/master/Style-Guide/Function-Structure.md
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions?view=powershell-7.4
@@ -93,14 +94,14 @@ https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/ab
 Brug verb-noun mønsteret til funktion, såfremt det ikke forværrer forståelsen.
 Navngiv funktioner og parametre med PascalCase.
 
-`
+```PowerShell
 
 Get-Process -Name "svchost" -ComputerName "PC0001"
 Test-ConnectionMultiThread -Target $addressList
 Select-Servers -ComputerName $myServers
 Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
 
-`
+```
 
 Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til at hjælpe.
 https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4
@@ -116,25 +117,26 @@ Overvej brugen af "Comment_Based_Help" som vist i tidligere, herved kan "Get-Hel
 Brug enkelt anførselstegn for enkle strengværdier, og dobbelt anførselstegn for strengværdier, der kan indeholde variabler.
 powershell
 
-`
+```PowerShell
 
 $name = 'John'
 $message = "Hello, $name!"
 
-`
+```
 
 
 ## Fejlhåndtering
 Implementer try-catch blokke for håndtering af undtagelser.
-powershell
-Copy code
+
+```PowerShell
+
 try {
     # Kode, der kan forårsage undtagelser
 } catch {
     Write-Host "Fejl: $_"
 }
 
-
+```
 ## Fil Navngivning
 Brug meningsfulde og beskrivende navne til filer.
 Scriptfiler: Get-UserData.ps1
