@@ -90,7 +90,7 @@ https://github.com/PoshCode/PowerShellPracticeAndStyle/blob/master/Style-Guide/F
 https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions?view=powershell-7.4  
 
 
-### Funktion Navngivning:
+### Funktion Navngivning
 Brug verb-noun mønsteret til funktion, såfremt det ikke forværrer forståelsen.
 Navngiv funktioner og parametre med PascalCase.
 
