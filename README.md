@@ -1,5 +1,5 @@
 # Kodestandarder
 Kodestandarder for følgende sprøg er defineret nedenstående
 
-[PowerShell](/CodingConventions-Powershell.md)  
-[Ansible](CodingConventions-Ansible.md)  
+[PowerShell](https://github.com/ajen0206e/IaC-CodingConventions/blob/main/CodingConventions-PowerShell.md)  
+[Ansible](https://github.com/ajen0206e/IaC-CodingConventions/blob/main/CodingConventions-Ansible.md)
