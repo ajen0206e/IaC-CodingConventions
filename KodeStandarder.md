@@ -85,7 +85,7 @@ function Invoke-SqlStoredProcedure {
 
 ```
 
-Se eventuelt nedenstående eller microsofts vejledninger til advancerede funktioner:
+Se eventuelt nedenstående eller microsofts vejledninger til advancerede funktioner:  
 [Function Structure @ PoshCode](https://github.com/PoshCode/PowerShellPracticeAndStyle/blob/master/Style-Guide/Function-Structure.md)  
 [About functions @ Microsoft](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions?view=powershell-7.4)
 
