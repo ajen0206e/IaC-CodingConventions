@@ -104,7 +104,7 @@ Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
 ```
 
 Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til at hjælpe.  
-[PSScriptAnalyzer](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)
+[PSScriptAnalyzer @ Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)
 
 
 
