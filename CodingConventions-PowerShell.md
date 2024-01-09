@@ -30,9 +30,9 @@ $userProfileImportPath
 ```
 
 ## Funktioner
-Opdel komplekse opgaver i funktioner for at forbedre genbrugelighed og vedligeholdelse.
-Nedenstående er et eksempel på en advanceret funktion, overstående ses en simpel.
-Hvis det er en simple funktion, så behøves der ikke alle blokke, "CmdletBinding" eller parametre.
+Opdel komplekse opgaver i funktioner for at forbedre genbrugelighed og vedligeholdelse.  
+Nedenstående er et eksempel på en advanceret funktion, overstående ses en simpel.  
+Hvis det er en simple funktion, så behøves der ikke alle blokke, "CmdletBinding" eller parametre.  
 
 ```PowerShell
 
