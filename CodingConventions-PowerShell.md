@@ -95,19 +95,19 @@ Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
 
 ```
 
-Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til at hjælpe.  
+Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til hjælp.  
 [PSScriptAnalyzer @ Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)
 
 
 
 ## Kommentering
-Kommenter komplekse dele af koden og vigtige beslutninger. Brug kommentarer til at forklare formålet med funktioner og scripts.
-Overvej brugen af "Comment_Based_Help" som vist i tidligere, herved kan "Get-Help" bruges på funktioner.
+Kommenter komplekse dele af koden og vigtige beslutninger.  
+Brug kommentarer til at forklare formålet med funktioner og scripts.  
+Overvej brugen af "Comment_Based_Help" som vist i tidligere, herved kan "Get-Help" bruges på funktioner.  
 
 
 ## Quoting
 Brug enkelt anførselstegn for enkle strengværdier, og dobbelt anførselstegn for strengværdier, der kan indeholde variabler.
-powershell
 
 ```PowerShell
 
