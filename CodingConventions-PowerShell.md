@@ -40,7 +40,6 @@ $UserProfileImportPath
 ## Funktioner
 Opdel komplekse opgaver i funktioner for at forbedre genbrugelighed og vedligeholdelse.  
 Simple funktioner behøves ikke alle blokke, "CmdletBinding" eller parametre.  
-Brug altid PascalCase til parametre navne.  
 Nedenstående er et eksempel på en advanceret funktion, overstående ses simple funktioner.  
 
 ```PowerShell
