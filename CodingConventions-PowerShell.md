@@ -143,6 +143,7 @@ try {
 } catch {
     Write-Output "Fejl: $_"
     Send-MailMessage -To "vigtigAdmin@regionh.dk" -Body "Fejler med $_" -SmtpServer smtprelay@regionh.top.local
+    Write-EventLog -LogName "ICA_Error_Codes" -Source "ICA_Error" -EntryType Error -EventId 1 -Message "$printerName, $server, $name"
     Exit 1
 }
 
