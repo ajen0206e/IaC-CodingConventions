@@ -93,6 +93,7 @@ Se eventuelt nedenstående eller microsofts vejledninger til advancerede funktio
 Brug verb-noun mønsteret til funktion, såfremt det ikke forværrer forståelsen.  
 Navngiv funktioner og parametre med PascalCase.  
 [Approved verbs for Windows PowerShell @ Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)  
+[PSScriptAnalyzer @ Microsoft](https://learn.microsoft.com/en-us/powershell/utility-modules/psscriptanalyzer/overview?view=ps-modules)
 
 ```PowerShell
 
