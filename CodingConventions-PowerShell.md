@@ -27,7 +27,8 @@ function Set-Something {
 
 ## Variable Navngivning
 Brug meningsfulde og beskrivende navne til variabler.  
-Brug PascalCase eller camelCase til variabelnavne.
+Brug PascalCase eller camelCase til variabelnavne.  
+Prøv at undlade at bruge forkortelser.  
 
 ```PowerShell
 
