@@ -6,7 +6,8 @@ Det er vigtigt at opretholde konsistens på tværs af projekter og samarbejde fo
 
 ## Formatering af Kode
 Brug 4 mellemrum for indrykning.  
-Hold en linje mellem forskellige logiske blokke af kode for bedre læsbarhed.
+Hold en linje mellem forskellige logiske blokke af kode for bedre læsbarhed.  
+Fold altid {}-Parenteser ud jo mindre det er f.eks. return, break eller exit.
 
 ```PowerShell
 
@@ -17,6 +18,7 @@ function Get-Something {
 
 # Use data
 function Set-Something {
+    if ($null -eq $importantStuff) { exit }
     # Code here
 }
 
