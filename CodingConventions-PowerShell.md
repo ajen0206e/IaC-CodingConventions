@@ -5,12 +5,18 @@ Det er vigtigt at opretholde konsistens på tværs af projekter og samarbejde fo
 
 
 ## Formatering af Kode
-Brug 4 mellemrum for indrykning.
+Brug 4 mellemrum for indrykning.  
 Hold en linje mellem forskellige logiske blokke af kode for bedre læsbarhed.
 
 ```PowerShell
 
+# Get data
 function Get-Something {
+    # Code here
+}
+
+# Use data
+function Set-Something {
     # Code here
 }
 
@@ -18,21 +24,22 @@ function Get-Something {
 
 
 ## Variable Navngivning
-Brug meningsfulde og beskrivende navne til variabler.
-Brug camelCase til variabelnavne.
+Brug meningsfulde og beskrivende navne til variabler.  
+Brug PascalCase eller camelCase til variabelnavne.
 
 ```PowerShell
 
 $computerList
 $oldIPAddresses
-$userProfileImportPath
+$UserProfileImportPath
 
 ```
 
 ## Funktioner
 Opdel komplekse opgaver i funktioner for at forbedre genbrugelighed og vedligeholdelse.  
-Nedenstående er et eksempel på en advanceret funktion, overstående ses en simpel.  
 Simple funktioner behøves ikke alle blokke, "CmdletBinding" eller parametre.  
+Brug altid PascalCase til parametre navne.  
+Nedenstående er et eksempel på en advanceret funktion, overstående ses simple funktioner.  
 
 ```PowerShell
 
