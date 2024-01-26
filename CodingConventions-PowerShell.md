@@ -11,12 +11,12 @@ Fold altid {}-Parenteser ud jo mindre det er reducerer læsbarheden.
 
 ```PowerShell
 
-# Get data
+# Get data - logisk blok 1
 function Get-Something {
     # Code here
 }
 
-# Use data
+# Use data - logisk blok 2
 function Set-Something {
     if ($null -eq $importantStuff) { exit }
     else {
