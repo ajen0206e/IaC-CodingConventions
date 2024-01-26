@@ -104,26 +104,13 @@ Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
 
 ```
 
-Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til hjælp.  
-
-
 
 
 ## Kommentering
 Kommenter komplekse dele af koden og vigtige beslutninger.  
-Brug kommentarer til at forklare formålet med funktioner og scripts.  
 Overvej brugen af "Comment_Based_Help" som vist i tidligere, herved kan "Get-Help" bruges på funktioner.  
+[Comment based help @ Microsoft](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comment_based_help?view=powershell-7.4)  
 
-
-## Quoting
-Brug enkelt anførselstegn for enkle strengværdier, og dobbelt anførselstegn for strengværdier, der kan indeholde variabler.
-
-```PowerShell
-
-$name = 'John'
-$message = "Hello, $name!"
-
-```
 
 
 ## Fejlhåndtering
@@ -134,13 +121,13 @@ Implementer try-catch blokke for håndtering af undtagelser.
 try {
     # Kode, der kan forårsage undtagelser
 } catch {
-    Write-Host "Fejl: $_"
+    Write-Output "Fejl: $_"
+    Send-MailMessage -To "vigtigAdmin@regionh.dk" -Body "Fejler med $_" -SmtpServer smtprelay@regionh.top.local
+    Exit 1
 }
 
 ```
 
 
 ## Fil Navngivning
-Brug meningsfulde og beskrivende navne til filer.  
-Scriptfiler: Get-UserData.ps1  
-Moduler: MyModule.psm1  
+Brug meningsfulde og beskrivende navne til filer.
