@@ -109,6 +109,21 @@ Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
 ## Kommentering
 Kommenter komplekse dele af koden og vigtige beslutninger.  
 Overvej brugen af "Comment_Based_Help" som vist i tidligere, herved kan "Get-Help" bruges på funktioner.  
+Brug gerne nedenstående template i starten af script.  
+
+```PowerShell
+
+##############################################
+# Template mangler indput fra andre
+# Noget i stil med...
+# Skrevet and AJEN0206
+# Dato: 01.01.2020
+# Synopsis: Opretter filer og laver kaffe
+# Updates: 01.02.2020 - Er løbet tør for kaffe
+##############################################
+
+```
+
 [Comment based help @ Microsoft](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_comment_based_help?view=powershell-7.4)  
 
 
@@ -130,4 +145,5 @@ try {
 
 
 ## Fil Navngivning
-Brug meningsfulde og beskrivende navne til filer.
+Brug meningsfulde og beskrivende navne til filer.  
+Hvis filen kun indeholder én funktion så brug eventuelt verb-noun standarden.  
