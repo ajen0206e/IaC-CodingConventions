@@ -90,8 +90,9 @@ Se eventuelt nedenstående eller microsofts vejledninger til advancerede funktio
 
 
 ### Funktion Navngivning
-Brug verb-noun mønsteret til funktion, såfremt det ikke forværrer forståelsen.
-Navngiv funktioner og parametre med PascalCase.
+Brug verb-noun mønsteret til funktion, såfremt det ikke forværrer forståelsen.  
+Navngiv funktioner og parametre med PascalCase.  
+[Approved verbs for Windows PowerShell @ Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)  
 
 ```PowerShell
 
@@ -103,7 +104,7 @@ Invoke-SqlStoredProcedure -Procedure "insert" -ComputerList $computers
 ```
 
 Se eventuelt nedenstående og brug gerne "PSScriptAnalyzer" plugin til hjælp.  
-[PSScriptAnalyzer @ Microsoft](https://learn.microsoft.com/en-us/powershell/scripting/developer/cmdlet/approved-verbs-for-windows-powershell-commands?view=powershell-7.4)
+
 
 
 
