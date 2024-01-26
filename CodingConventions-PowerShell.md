@@ -19,7 +19,10 @@ function Get-Something {
 # Use data
 function Set-Something {
     if ($null -eq $importantStuff) { exit }
-    # Code here
+    else {
+        # Alot of Code here
+        # And here
+    }
 }
 
 ```
