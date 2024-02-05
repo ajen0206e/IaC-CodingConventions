@@ -93,7 +93,8 @@ Se eventuelt nedenstående eller microsofts vejledninger til advancerede funktio
 [Function Structure @ PoshCode](https://github.com/PoshCode/PowerShellPracticeAndStyle/blob/master/Style-Guide/Function-Structure.md)  
 [About functions @ Microsoft](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_functions?view=powershell-7.4)
 
-Brug PowerShell native komandoer når det er muligt, kommenter gerne hvis ikke native metode bruges (kan være pga. hastighed/kompatabilitet osv.):
+Brug PowerShell native komandoer når det er muligt.  
+Kommenter gerne hvis ikke native metode bruges (kan være pga. hastighed/kompatabilitet osv.).
 
 ```PowerShell
 
