@@ -102,8 +102,8 @@ Kommenter gerne hvis ikke native metode bruges (kan være pga. hastighed/kompata
 $ping = ping 10.20.30.40
 $files = (dir C:\temp)
 # Good
-Test-Connection 10.20.30.40
-Get-ChildItem -LiteralPath "C:\temp"
+$pingResult = Test-Connection -ComputerName '10.20.30.40'
+$files = Get-ChildItem -LiteralPath 'C:\temp'
 
 ```
 
