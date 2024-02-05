@@ -118,14 +118,20 @@ Brug gerne nedenstående template i starten af script.
 
 ```PowerShell
 
-##############################################
-# Template mangler indput fra andre
-# Noget i stil med...
-# Skrevet and AJEN0206
-# Dato: 01.01.2020
-# Synopsis: Opretter filer og laver kaffe
-# Updates: 01.02.2020 - Er løbet tør for kaffe
-##############################################
+#################################################
+# Oprettet af: Anders And
+# Oprettet dato: 01.01.2024
+# Script til at levere MQ kø-størrelser til CAPMON
+# Scriptet er lavet så det kan lægges på alle SPxINTxx servere i prod og preprod
+#
+# Modificeret af: Peter Belli 25.01.2024
+# Tilføjede mulighed for farver. Usage -c
+#
+# Modificeret af: Anker Petersen 02.02.2024
+# Efter mange tests på diverse servere
+# så vi at funktionen Trumle altid fejlede på Cisco og derfor
+# blev en workaround tilføjet for Cisco. 
+#################################################
 
 ```
 
